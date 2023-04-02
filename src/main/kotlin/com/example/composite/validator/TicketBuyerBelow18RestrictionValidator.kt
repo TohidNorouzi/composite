@@ -4,7 +4,7 @@ import com.example.composite.TicketRequest
 import org.springframework.stereotype.Component
 
 @Component
-class CheckTicketBuyerBelow18Restriction : ITicketRequestValidator {
+class TicketBuyerBelow18RestrictionValidator : ITicketRequestValidator {
 
     companion object {
         const val ERROR_MSG_TICKET_BUYER_18_RESTRICTION =

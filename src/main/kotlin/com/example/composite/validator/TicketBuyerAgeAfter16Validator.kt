@@ -4,7 +4,7 @@ import com.example.composite.TicketRequest
 import org.springframework.stereotype.Component
 
 @Component
-class CheckTicketBuyerAgeAfter16 : ITicketRequestValidator {
+class TicketBuyerAgeAfter16Validator : ITicketRequestValidator {
 
     companion object {
         const val ERROR_MSG_TICKET_BUYER_MUST_AT_LEAST_16 = "The ticket buyer must be at least 16 years old"

@@ -5,7 +5,7 @@ import com.example.composite.ForeignTripAgeRangePolicyService
 import org.springframework.stereotype.Component
 
 @Component
-class CheckTicketBuyerAgeValidForForeignTripe constructor(private val policyService: ForeignTripAgeRangePolicyService) :
+class TicketBuyerAgeValidForForeignTripeValidator constructor(private val policyService: ForeignTripAgeRangePolicyService) :
     ITicketRequestValidator {
 
     companion object {

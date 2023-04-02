@@ -5,7 +5,7 @@ import com.example.composite.TicketRequest
 import org.springframework.stereotype.Component
 
 @Component
-class CheckSingleAdultWithKidsRestriction : ITicketRequestValidator {
+class SingleAdultWithKidsRestrictionValidator : ITicketRequestValidator {
 
     companion object {
         const val ERROR_MSG_SINGLE_ADULT_RESTRICTION =
